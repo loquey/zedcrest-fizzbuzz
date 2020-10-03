@@ -15,6 +15,7 @@
 
 
 	<ItemGroup>
+		<ProjectReference Include="..\FizzBuzz.Service\FizzBuzz.Service.csproj" />
 		<ProjectReference Include="..\FizzBuzz\FizzBuzz.API.csproj" />
 	</ItemGroup>
 
