@@ -14,7 +14,7 @@ namespace FizzBuzz.Test
     public class FizzBuzzTest : IClassFixture<FizzBuzzReturnTypeFixture>
     {
         private IFizzBuzzService _FizzBuzzService;
-        private FizzBuzzReturnTypeFixture _ReturnTypes;
+        private readonly FizzBuzzReturnTypeFixture _ReturnTypes;
 
         public FizzBuzzTest(FizzBuzzReturnTypeFixture returnTypes)
         {
